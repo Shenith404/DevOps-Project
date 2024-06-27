@@ -4,7 +4,7 @@ triggers{
     githubPush()
   }
     environment {
-        REPO_URL = 'hhttps://github.com/Shenith404/DevOps-Project'
+        REPO_URL = 'https://github.com/Shenith404/DevOps-Project/tree/main/Project'
         BRANCH = 'main'
         DOCKER_REGISTRY = 'irajapaksha'
         APP_NAME = 'BookMyShoot'
