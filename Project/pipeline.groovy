@@ -6,8 +6,7 @@ triggers{
     environment {
         REPO_URL = 'https://github.com/Shenith404/DevOps-Project/tree/main/Project'
         BRANCH = 'main'
-        DOCKER_REGISTRY = 'irajapaksha'
-        APP_NAME = 'BookMyShoot'
+        APP_NAME = 'Music-Instruments'
     }
 
     stages {
