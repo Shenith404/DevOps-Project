@@ -37,7 +37,7 @@ mongoose.connect(mongoDBURL, {
     useUnifiedTopology: true
 })
 .then(() => {
-    console.log('App connected to MongoDB');
+    console.log('your music instrument web application App connected to MongoDB ');
 
     app.listen(PORT, () => {
         console.log(`App is listening on port: ${PORT}`);
