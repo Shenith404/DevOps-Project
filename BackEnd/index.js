@@ -7,6 +7,9 @@ import cartRoute from "./routes/cartRoutes.js";
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
+//
+
+
 
 
 const PORT = 5555;
@@ -37,7 +40,7 @@ mongoose.connect(mongoDBURL, {
     useUnifiedTopology: true
 })
 .then(() => {
-    console.log('your music instrument web application App connected to MongoDB ');
+    console.log('Your music instrument web application App connected to MongoDB ');
 
     app.listen(PORT, () => {
         console.log(`App is listening on port: ${PORT}`);
