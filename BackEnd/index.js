@@ -40,7 +40,7 @@ mongoose.connect(mongoDBURL, {
     useUnifiedTopology: true
 })
 .then(() => {
-    console.log('Your  Web Application App Connected to MongoDB ');
+    console.log('Your   Application App Connected to MongoDB ');
 
     app.listen(PORT, () => {
         console.log(`App is listening on port: ${PORT}`);
